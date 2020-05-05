@@ -1,0 +1,5 @@
+1 0.000000 200.121.1.131 172.16.0.122 TCP 1454 10554  >  80 [ACK] Seq=1 Ack=1 Win=65535 Len=1400 [TCP segment of a reassembled PDU] 65535
+2 0.000011 172.16.0.122 200.121.1.131 TCP 54 [TCP ACKed unseen segment] 80  >  10554 [ACK] Seq=1 Ack=11201 Win=53200 Len=0 53200
+3 0.025738 200.121.1.131 172.16.0.122 TCP 1454 [TCP Spurious Retransmission] 10554  >  80 [ACK] Seq=1401 Ack=1 Win=65535 Len=1400 [TCP segment of a reassembled PDU] 65535
+4 0.025749 172.16.0.122 200.121.1.131 TCP 54 [TCP Window Update] [TCP ACKed unseen segment] 80  >  10554 [ACK] Seq=1 Ack=11201 Win=63000 Len=0 63000
+5 0.076967 200.121.1.131 172.16.0.122 TCP 1454 [TCP Previous segment not captured] [TCP Spurious Retransmission] 10554  >  80 [ACK] Seq=4201 Ack=1 Win=65535 Len=1400 [TCP segment of a reassembled PDU] 65535
